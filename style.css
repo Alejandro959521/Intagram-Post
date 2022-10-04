@@ -1,0 +1,72 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	font-family: "Open Sans", sans-serif;
+}
+.gigante {
+	background: white;
+	width: 500px;
+	height: 650px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenido {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.encabezado {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 10px 0px 10px;
+}
+
+.h {
+	font-size: 13px;
+	display: flex;
+}
+.nombre .persona {
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+.imagen img {
+	width: 100%;
+	height: 100%;
+	transform: scaleX(-1);
+}
+.iconos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.iconosIz {
+	display: flex;
+}
+
+.texto2 {
+	margin: 20px;
+	font-size: 16px;
+}
+
+.texto3 {
+	font-size: 16px;
+}
+
+.texto4 {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.logo-html {
+	margin-left: 10px;
+	padding-left: 10px;
+}
